@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+    background-color: #f8f1f1;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    nav {
+        justify-content: center;
+    }
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: 1.5rem;
+    margin: 1.2rem;
+}
+
+#welcome-section {
+    padding-top: 5rem;
+    background: linear-gradient(45deg, #5eaaa8, #a3d2ca);
+    height: 100vh;
+    text-align: center;
+}
+
+.main-heading {
+    margin-top: 30vh;
+    font-size: 3rem;
+    color:#4c4c4c;
+}
+
+.main-heading span {
+    color: #16697a;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#projects {
+    background-color: #db6400;
+    height: 100%;
+}
+
+.project-heading {
+    max-width: 640px;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+    padding: 5rem;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #16697a;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tile {
+    margin: 3rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+.item-picture {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+}
+
+.item-info {
+    padding: 1rem;
+    background-color: #f8f1f1;
+    text-align: center;
+    margin: 0;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    max-width: 100px;
+    padding: .5rem 1rem;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+footer {
+    background-color: #4c4c4c;
+    text-align: center;
+    color: white;
+}
+
+#footer-heading {
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
+#footer-text {
+    font-style: italic;
+}
+
+#github {
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 75px;
+}
+
